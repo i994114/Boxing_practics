@@ -15,6 +15,7 @@ $font_size_l: 16px;
 $font_size_xl: 24px;
 $font_size_xxl: 30px;
 $font_size_3l: 38px;
+$font_size_king: 60px;
 
 //余白
 $space_s: 5px;
@@ -32,6 +33,7 @@ $space_3l: 30px;
 @import '../scss/layout/_header.scss';
 @import '../scss/object/Component/heroPage.scss';
 @import '../scss/object/Component/logoTittle.scss';
+@import '../scss/object/Component/heroTitle.scss';
 
 
 

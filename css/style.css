@@ -99,7 +99,14 @@ table {
   background-repeat: no-repeat;
   height: 700px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
 
 .c-logo__title {
   font-size: 38px; }
+
+.c-heroPage__title {
+  font-size: 60px;
+  position: absolute;
+  top: 200px;
+  left: 120px; }
