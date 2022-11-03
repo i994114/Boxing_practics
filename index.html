@@ -10,17 +10,197 @@
     <link type="text/css" rel="style.sheet" href="./css/style.css">
   </head>
   <body>
+    <!-- header -->
     <header class="l-header">
-      <div class="c-logo__title">
-        <h1>aaaaa</h1>
-      </div>
-      <div class="c-headerMenu">
-        <ul>
-          <li>TOP</li>
-          <li>NEWS</li>
-        </ul>
-      </div>
+      <h1 class="c-logo__title">aaaaa</h1>
+      <nav class="nav-menu">
+        <div class="c-headerMenu">
+          <ul>
+            <li class="c-menu__item"><a class="c-menu--link" href="#top">TOP</a></li>
+            <li class="c-menu__item"><a class="c-menu--link" href="#news">NEWS</a></li>
+            <li class="c-menu__item"><a class="c-menu--link" href="#about">ABOUT</a></li>
+            <li class="c-menu__item"><a class="c-menu--link" href="#gallery">GALLERY</a></li>
+            <li class="c-menu__item"><a class="c-menu--link" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
+
+    <!-- main -->
+    <main class="l-main">
+
+      <!-- トップ画像 -->
+      <section class="c-heroPage">
+        <h2>Boxing Gym<br>let's execise!!</h2>
+      </section>
+
+      <!-- お知らせ欄 -->
+      <section class="c-news">
+        <h2 class="c-container-title"><span class="u-oddTitle">NEWS</span></h2>
+        <div class="container-body">
+          <ul class="c-news">
+            <li class="c-news--item">
+              <a class="c-news--item__link">
+                <span class="c-news__date">2022/10/31</span>
+                <span class="c-news__topic">newsA</span>
+              </a>
+            </li>
+            <li class="c-news-item">
+              <a class="c-news--item__link">
+                <span class="c-news__date">2022/11/01</span>
+                <span class="c-news__topic">newsB</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- about欄 --> 
+      <section class="c-about">
+        <h2 class="c-container-title"><span class="u-oddTitle">ABOUT</span></h2>
+        <div class="c-container__body">
+          <p>
+            当ジムは、昭和56年(1981年)7月に開設以来、日本ボクシング史に残る名選手を多く輩出して来ました。
+            お客様にはプロコース・アマコース・老若男女の体力作り・シェイプアップコースを設け、
+            目的に合わせた指導を致します。また、時間帯を長く設け、通勤・通学の帰りでも通う事ができ、
+            五反田駅から徒歩2分の絶好の環境にあります。ぜひジムの会員として練習に参加してみてください！
+          </p>
+        </div>
+      </section>
+
+      <!-- ギャラリー -->
+      <section class="c-gallery" id="gallery">
+        <h2 class="c-container-title">Gallery</h2>
+        <div class="c-container__body">
+          <a href="" class="c-gallery">
+            <img class="c-gallery--img" src="./images/course1.jpg" alt="">
+          </a>
+            <a href="" class="c-gallery">
+            <img class="c-gallery--img" src="./images/course2.jpg" alt="">
+          </a>
+          <a href="" class="c-gallery">
+            <img class="c-gallery--img" src="./images/course3.jpg" alt="">
+          </a>
+          <a href="" class="c-gallery">
+            <img class="c-gallery--img" src="./images/course4.jpg" alt="">
+          </a>
+          <a href="" class="c-gallery">
+            <img class="c-gallery--img" src="./images/course5.jpg" alt="">
+          </a>
+            <a href="" class="c-gallery">
+            <img class="c-gallery--img" src="./images/course6.jpg" alt="">
+          </a>
+          <a href="" class="c-gallery">
+            <img class="c-gallery--img" src="./images/course7.jpg" alt="">
+          </a>
+          <a href="" class="c-gallery">
+            <img class="c-gallery--img" src="./images/course8ß.jpg" alt="">
+          </a>  
+        </div>
+      </section>
+
+      <!-- コース紹介 -->
+      <section class="c-course" id="course"> 
+        <h2 class="c-container-title">Course</h2>
+        <div class="c-container__body">
+          <!-- コースメニュー -->
+          <div class="c-course__menu">
+            <!--  コース名-->
+            <div class="c-course--title">
+              <span class="u-title__font u-title__size">トップアスリート</span>コース
+            </div>
+            
+            <!--  コース画像-->
+            <div class="c-course--img">
+              <img src="./images/course1.jpg" alt="">
+            </div>
+            
+            <!--  コース紹介-->
+            <div class="c-course--msg">
+              <p>
+                プロ・アマ選手育成
+  
+                本気で”ボクシングをしたい・ボクサーになりたい”といった情熱を持っている方、お待ちしています。
+                会長が基礎から徹底指導いたします。
+                一人前のボクサーとしてリングに立つ歓び、毎日積み上げてきたものを試合で発揮する歓び、ギャラリーの
+                視線・歓声を独り占めする歓びを知っていただきたい。
+                当ジムの指導方針は『Marvelous』相手に打たれずに打ち続け、
+                前進していく強気なボクサーの育成を目標としています。チャンスは誰にでもあります。
+                努力して勝利することの素晴らしさを共に分かち合いましょう。
+              </p>  
+            </div>
+          </div>
+          <!-- コースメニュー -->
+          <div class="c-course__menu">
+            <!--  コース名-->
+            <div class="c-course--title">
+              <span class="u-title__font u-title__size">フィットネス</span>コース
+            </div>
+            
+            <!--  コース画像-->
+            <div class="c-course--img">
+              <img src="./images/course2.jpg" alt="">
+            </div>
+            
+            <!--  コース紹介-->
+            <div class="c-course--msg">
+              <p>
+                ボクシングの爽快感を皆様に知っていただきたい
+
+                サンドバッグ・ミット打ちをしたときの快感は普段の暮らしでは味わえない感覚です。
+                基本を身につければ様々なブロー・ディフェンス・フットワークを学び、
+                ボクシングの奥深さ・楽しさを知っていただけます。
+                ダイエット目的の方もボクシングに触れることで『楽しく』脂肪の燃焼・ストレスの発散をすることができます。
+                当ジムでは決して練習を強制することはありません。
+                男女を問わす個人のペースであくまで『楽しく』をモットーに練習に励んでいただけます。
+              </p>  
+            </div>
+          </div>
+          <!-- コースメニュー -->
+          <div class="c-course__menu">
+            <!--  コース名-->
+            <div class="c-course--title">
+              <span class="u-title__font u-title__size">キッズ</span>コース
+            </div>
+            
+            <!--  コース画像-->
+            <div class="c-course--img">
+              <img src="./images/course3.jpg" alt="">
+            </div>
+            
+            <!--  コース紹介-->
+            <div class="c-course--msg">
+              <p>
+                子供達の心技体の成長
+
+                一対一で相手と体をぶつけ合うボクシングは”痛みを知る”ことができます。
+                自分で痛みを実感することにより”限度”を知ることができます。
+                現代では”限度”を知らないが故に起きた悲惨な事件が多く見受けられます。
+                そういったケースを未然に防ぐ為にも青少年のうちに”痛み”を知ることが
+                大切であると考えています。また、ボクシングは努力で上達します。
+                何かに懸命に打ち込むことは成長過程でとても大切なことです。
+                ボクシングを通して『心技体』を強くすることが当コースの目標です。
+              </p>  
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- お問い合せ -->
+      <section class="c-contact" id="contact">
+        <h2 class="c-container-title">Contact</h2>
+        <form action="" class="c-form">
+          <input class="c-input" type="text" placeholder="お名前">
+          <input class="c-input" type="email" placeholder="email">
+          <textarea class="c-input c-textarea" placeholder="お問合せ内容"></textarea>
+          <button class="c-btn ">送信</button>
+        </form>
+      </section>
+
+      <footer class="l-footer">
+        <p>Copyright © kaz. All Rights Reserved</p>
+      </footer>
+    </main>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
             integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
             crossorigin="anonymous"></script>
