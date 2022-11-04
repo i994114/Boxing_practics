@@ -22,8 +22,18 @@ $space_s: 5px;
 $space_m: 10px;
 $space_l: 15px;
 $space_xl: 20px;
-$space_xxl: 25px;
-$space_3l: 30px;
+$space_xxl: 30px;
+$space_3l: 40px;
+
+//各ページの大きさ
+$section_size_s: 400px;
+$section_size_m: 700px;
+$section_padding_s: 80px;
+$section_padding_m: 120px;
+
+//横幅
+$section_width_s: 50%;
+$section_width_m: 70%;
 
 // ==================================
 // 各種ファイルのimport
@@ -31,11 +41,14 @@ $space_3l: 30px;
 @import '../scss/foundation/base.scss';
 @import '../scss/foundation/reset.scss';
 @import '../scss/layout/_header.scss';
-@import '../scss/object/Component/heroPage.scss';
-@import '../scss/object/Component/logoTittle.scss';
-@import '../scss/object/Component/heroTitle.scss';
-
-
+@import '../scss/object/Component/_heroPage.scss';
+@import '../scss/object/Component/_logoTitle.scss';
+@import '../scss/object/Component/_heroTitle.scss';
+@import '../scss/object/Component/_containerTitle.scss';
+@import '../scss/object/Utility/_font.scss';
+@import '../scss/object/Component/_news.scss';
+@import '../scss/object/Component/_newsBody.scss';
+@import '../scss/object/Component/container.scss';
 
 
 

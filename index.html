@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <!-- header -->
     <header class="l-header">
-      <h1 class="c-logo__title">Fight Club</h1>
+      <h1 class="c-logo__title u-logo__font">Fight Club</h1>
       <nav class="c-navMenu">
         <ul class="c-headerMenu">
           <li class="c-menu__item"><a class="c-menu--link" href="#hero">TOP</a></li>
@@ -29,34 +30,54 @@
     <main class="l-main">
 
       <!-- トップ画像 -->
-      <section class="c-heroPage" id="hero">
+      <section class="c-heroPage c-container" id="hero">
         <h2 class="c-heroPage__title">Boxing Gym<br>let's execise!!</h2>
       </section>
 
       <!-- お知らせ欄 -->
-      <section class="c-news" id="news">
-        <h2 class="c-container-title"><span class="u-oddTitle">NEWS</span></h2>
+      <section class="c-news c-container c-container__ornament" id="news">
+        <h2 class="c-container--title"><span class="u-oddTitle">NEWS</span></h2>
         <div class="container-body">
-          <ul class="c-news">
-            <li class="c-news--item">
-              <a class="c-news--item__link">
+          <ul class="c-news__body">
+
+            <li class="c-news__item">
+              <a class="c-news--item--link">
                 <span class="c-news__date">2022/10/31</span>
-                <span class="c-news__topic">newsA</span>
+                <span class="c-news__topic">newsAnewsAnewsAnewsA</span>
               </a>
             </li>
-            <li class="c-news-item">
-              <a class="c-news--item__link">
+            <li class="c-news__item">
+              <a class="c-news--item--link">
                 <span class="c-news__date">2022/11/01</span>
-                <span class="c-news__topic">newsB</span>
+                <span class="c-news__topic">newsAnewsAnewsAnewsAnewsA</span>
               </a>
             </li>
+            <li class="c-news__item">
+              <a class="c-news--item--link">
+                <span class="c-news__date">2022/10/31</span>
+                <span class="c-news__topic">newsAnewsAnewsAnewsAnewsA</span>
+              </a>
+            </li>
+            <li class="c-news__item">
+              <a class="c-news--item--link">
+                <span class="c-news__date">2022/11/01</span>
+                <span class="c-news__topic">newsAnewsAnewsAnewsA</span>
+              </a>
+            </li>
+            <li class="c-news__item">
+              <a class="c-news--item--link">
+                <span class="c-news__date">2022/10/31</span>
+                <span class="c-news__topic">新規作成</span>
+              </a>
+            </li>
+
           </ul>
         </div>
       </section>
 
       <!-- about欄 --> 
       <section class="c-about" id="about">
-        <h2 class="c-container-title"><span class="u-oddTitle">ABOUT</span></h2>
+        <h2 class="c-container--title"><span class="u-oddTitle">ABOUT</span></h2>
         <div class="c-container__body">
           <p>
             当ジムは、昭和56年(1981年)7月に開設以来、日本ボクシング史に残る名選手を多く輩出して来ました。
@@ -69,7 +90,7 @@
 
       <!-- ギャラリー -->
       <section class="c-gallery" id="gallery">
-        <h2 class="c-container-title">Gallery</h2>
+        <h2 class="c-container--title">Gallery</h2>
         <div class="c-container__body">
           <!--
           <a href="" class="c-gallery">
@@ -102,7 +123,7 @@
 
       <!-- コース紹介 -->
       <section class="c-course" id="course"> 
-        <h2 class="c-container-title">Course</h2>
+        <h2 class="c-container--title">Course</h2>
         <div class="c-container__body">
           <!-- コースメニュー -->
           <div class="c-course__menu">
@@ -189,7 +210,7 @@
 
       <!-- お問い合せ -->
       <section class="c-contact" id="contact">
-        <h2 class="c-container-title">Contact</h2>
+        <h2 class="c-container--title">Contact</h2>
         <form action="" class="c-form">
           <input class="c-input" type="text" placeholder="お名前">
           <input class="c-input" type="email" placeholder="email">
