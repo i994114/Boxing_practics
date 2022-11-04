@@ -113,7 +113,6 @@ table {
 
 .c-container--title {
   font-size: 38px;
-  margin-top: 40px;
   text-align: center;
   margin-bottom: 40px; }
 
@@ -123,8 +122,7 @@ table {
 .c-news {
   margin: 0 auto;
   height: 400px;
-  padding-top: 80px;
-  padding-bottom: 120px; }
+  padding-top: 80px; }
 
 .c-news__body {
   background-color: aqua;
@@ -142,22 +140,30 @@ table {
   margin-right: 5px;
   color: #e37b89; }
 
-.c-container__ornament .c-container--title:before, .c-container__ornament .c-container--title:after {
-  border-top: 1px solid #2e1f1a;
-  position: relative;
-  content: "";
-  display: block;
-  z-index: 0;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto; }
+.c-news {
+  background-color: brown; }
 
-.c-container__ornament .c-container--title:before {
-  top: 15px; }
+.c-container {
+  width: 980px;
+  margin: 0 auto; }
+  .c-container__ornament .c-container--title:before, .c-container__ornament .c-container--title:after {
+    border-top: 1px solid #2e1f1a;
+    position: relative;
+    content: "";
+    display: block;
+    z-index: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; }
+  .c-container__ornament .c-container--title:before {
+    top: 15px; }
+  .c-container__ornament .c-container--title:after {
+    top: -15px; }
+  .c-container__ornament .c-container--title .u-oddTitle {
+    position: relative;
+    z-index: 1; }
 
-.c-container__ornament .c-container--title:after {
-  top: -15px; }
-
-.c-container__ornament .c-container--title .u-oddTitle {
-  position: relative;
-  z-index: 1; }
+.c-about {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  background-color: blue; }

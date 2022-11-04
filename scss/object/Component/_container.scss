@@ -1,4 +1,6 @@
 .c-container {
+  width: 980px;
+  margin: 0 auto;
   &__ornament {
     .c-container--title {
       &:before, &:after{
@@ -23,4 +25,5 @@
       }
     }
   }
+
 }
