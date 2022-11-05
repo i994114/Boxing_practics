@@ -1,7 +1,7 @@
 // ==================================
 // 変数
 // ==================================
-$font-color_default: #777;
+$font-color_default: #008C9E;
 $font-size_default: 16px;
 
 
@@ -35,6 +35,10 @@ $section_padding_m: 120px;
 $section_width_s: 50%;
 $section_width_m: 70%;
 
+//背景色
+$background-base: #fcb900;
+$background-main: #343838;
+$background-accent: #e37b89;
 // ==================================
 // 各種ファイルのimport
 // ==================================
@@ -50,6 +54,7 @@ $section_width_m: 70%;
 @import '../scss/object/Component/_newsBody.scss';
 @import '../scss/object/Component/_container.scss';
 @import '../scss/object/Component/_about.scss';
+@import '../scss/layout/_main.scss';
 
 
 

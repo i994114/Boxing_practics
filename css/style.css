@@ -1,7 +1,7 @@
 @charset "UTF-8";
 html, body {
   width: 100%;
-  color: #777;
+  color: #008C9E;
   font-size: 16px;
   line-height: 1.6;
   font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
@@ -12,7 +12,7 @@ p, a {
   -webkit-font-smoothing: antialiased; }
 
 a {
-  color: #777;
+  color: #008C9E;
   text-decoration: none;
   transition: .3s; }
 
@@ -77,7 +77,7 @@ table {
   height: 80px;
   display: flex;
   justify-content: space-between;
-  color: #777;
+  color: #008C9E;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -108,8 +108,8 @@ table {
 .c-heroPage__title {
   font-size: 60px;
   position: absolute;
-  top: 200px;
-  left: 120px; }
+  top: 150px;
+  left: 170px; }
 
 .c-container--title {
   font-size: 38px;
@@ -125,10 +125,10 @@ table {
   padding-top: 80px; }
 
 .c-news__body {
-  background-color: aqua;
+  background-color: #fcb900;
   overflow-y: scroll;
   width: 50%;
-  height: 60px;
+  height: 120px;
   margin: 0 auto; }
 
 .c-news__item {
@@ -139,9 +139,6 @@ table {
   margin-left: 5px;
   margin-right: 5px;
   color: #e37b89; }
-
-.c-news {
-  background-color: brown; }
 
 .c-container {
   width: 980px;
@@ -166,4 +163,7 @@ table {
 .c-about {
   padding-top: 80px;
   padding-bottom: 120px;
-  background-color: blue; }
+  background-color: #fcb900; }
+
+.l-main {
+  background-color: #343838; }

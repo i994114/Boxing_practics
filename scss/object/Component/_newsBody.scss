@@ -1,8 +1,8 @@
 .c-news__body {
-  background-color: aqua;
+  background-color: $background-base;
   overflow-y: scroll;
   width: $section_width_s;
-  height: 60px;
+  height: 120px;
   margin: 0 auto;
 }
 
@@ -15,8 +15,4 @@
   margin-left: 5px;
   margin-right: 5px;
   color: $color_corp;
-}
-
-.c-news {
-  background-color: brown;
 }
