@@ -12,10 +12,13 @@
         content: "";
         display: block;
         z-index: 0;
-        width: $section_width_m;
+        @include mq() {
+          width: $section_width_m;
+        }
         margin-left: auto;
         margin-right: auto;
       }
+      //タイトルの横線の装飾
       &:before {
         top: 15px;
       }

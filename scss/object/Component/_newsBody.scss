@@ -1,9 +1,15 @@
 .c-news__body {
   background-color: $background-base;
   overflow-y: scroll;
-  width: $section_width_s;
+  width: $section_width_m;
   height: 120px;
   margin: 0 auto;
+  br {
+    display: none;
+    @include mq() {
+      display: block;
+    }
+  }
 }
 
 .c-news__item {
