@@ -1,10 +1,13 @@
 .c-container {
-  width: 980px;
+  @include mq() {
+    width: 100%;
+  }
+  width: $site_width;
   margin: 0 auto;
   &__ornament {
     .c-container--title {
       &:before, &:after{
-        border-top: 1px solid #2e1f1a;
+        border-top: 1px solid #008C9E;
         position: relative;
         content: "";
         display: block;

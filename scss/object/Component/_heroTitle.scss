@@ -1,6 +1,11 @@
 .c-heroPage__title {
   font-size: $font_size_king;
   position: absolute;
-  top: 150px;
-  left: 170px;
+  top: 100px;
+  left: 100px;
+  @include mq() {
+    font-size: $font-size_3l;
+    top: 320px;
+    left: 100px;
+  }
 }

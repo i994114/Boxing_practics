@@ -2,11 +2,22 @@
   background-image: url('../images/hero.jpg');
   background-attachment: fixed;
   background-position: center;
-  background-size: center;
+  background-size: cover;
   background-repeat: no-repeat;
   height: $section_size_m;
   display: flex;
   justify-content: center;
   position: relative;
+  align-items: center;
+  @include mq() {
+    background-position: 75% 0%;
+  }
+  br {
+    display: none;
+    @include mq() {
+      display: block;
+      
+    }
+  }
 }
 

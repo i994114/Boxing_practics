@@ -1,14 +1,15 @@
 // ==================================
 // 変数
 // ==================================
+//フォント
 $font-color_default: #008C9E;
-$font-size_default: 16px;
-
 
 $font-family_all: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; // TODO:リファクタ必要（変数にする）
 $color_corp: #e37b89;
 
 //フォントサイズ
+$font-size_default: 16px;
+
 $font-size_s: 12px;
 $font-size_m: 14px;
 $font_size_l: 16px;
@@ -32,6 +33,7 @@ $section_padding_s: 80px;
 $section_padding_m: 120px;
 
 //横幅
+$site_width: 980px;
 $section_width_s: 50%;
 $section_width_m: 70%;
 
@@ -39,23 +41,55 @@ $section_width_m: 70%;
 $background-base: #fcb900;
 $background-main: #343838;
 $background-accent: #e37b89;
+
+
+// ==================================
+// レスポンシブ
+// ==================================
+
+$breakpoints: (
+  'sm': 'screen and (max-width: 414px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 1000px)', 
+  'xl': 'screen and (max-width: 1200px)',
+) !default;
+
+@mixin mq($breakpoint: sm) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin ipad($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
 // ==================================
 // 各種ファイルのimport
 // ==================================
+//foundation
 @import '../scss/foundation/base.scss';
 @import '../scss/foundation/reset.scss';
+
+//layout
 @import '../scss/layout/_header.scss';
+@import '../scss/layout/_main.scss';
+
+//component
 @import '../scss/object/Component/_heroPage.scss';
 @import '../scss/object/Component/_logoTitle.scss';
 @import '../scss/object/Component/_heroTitle.scss';
 @import '../scss/object/Component/_containerTitle.scss';
-@import '../scss/object/Utility/_font.scss';
 @import '../scss/object/Component/_news.scss';
 @import '../scss/object/Component/_newsBody.scss';
 @import '../scss/object/Component/_container.scss';
 @import '../scss/object/Component/_about.scss';
-@import '../scss/layout/_main.scss';
+@import '../scss/object/Component/_menuTrigger.scss';
+@import '../scss/object/Component/navMenu.scss';
 
-
+//utility
+@import '../scss/object/Utility/_font.scss';
 
 
