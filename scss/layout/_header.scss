@@ -15,6 +15,9 @@
 .c-headerMenu {
   display: flex;
   margin-right: 20px;
+  @include mq() {
+    margin-right: 0;
+  }
 }
 .c-menu__item {
   margin-left: 15px;

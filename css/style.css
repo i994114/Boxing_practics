@@ -87,6 +87,9 @@ table {
 .c-headerMenu {
   display: flex;
   margin-right: 20px; }
+  @media screen and (max-width: 414px) {
+    .c-headerMenu {
+      margin-right: 0; } }
 
 .c-menu__item {
   margin-left: 15px; }
@@ -234,6 +237,12 @@ table {
       transition: .5s;
       transform: translateX(-100%);
       z-index: 2; } }
+
+.c-menu--link {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  font-size: 38px; }
 
 .u-logo__font {
   font-family: 'Caveat', cursive; }
