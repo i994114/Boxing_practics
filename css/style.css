@@ -186,6 +186,10 @@ table {
   .c-container__ornament .c-container--title .u-oddTitle {
     position: relative;
     z-index: 1; }
+  @media screen and (max-width: 414px) {
+    .c-container__body {
+      padding-left: 15px;
+      padding-right: 15px; } }
 
 .c-about {
   padding-top: 80px;
@@ -258,10 +262,16 @@ table {
   margin-bottom: 15px;
   box-sizing: border-box;
   transition: .5s; }
+  @media screen and (max-width: 414px) {
+    .c-gallery {
+      margin-right: calc(calc(414px - calc(177px * 2)) / 2); } }
   .c-gallery:hover {
     transform: scale(1.03);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transition: .5s; }
+  @media screen and (max-width: 414px) {
+    .c-gallery__group {
+      margin-right: 0; } }
   .c-gallery__group--float {
     overflow: hidden; }
   .c-gallery__boby {
@@ -273,6 +283,13 @@ table {
       margin-right: 0; }
     .c-gallery__staff:nth-of-type(8) {
       margin-right: 0; }
+    @media screen and (max-width: 414px) {
+      .c-gallery__staff {
+        width: calc(50% - 15px); }
+        .c-gallery__staff:nth-of-type(2) {
+          margin-right: 0; }
+        .c-gallery__staff:nth-of-type(6) {
+          margin-right: 0; } }
   .c-gallery--img {
     position: absolute;
     top: 50%;

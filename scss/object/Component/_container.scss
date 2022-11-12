@@ -33,5 +33,10 @@
       }
     }
   }
-
+  &__body {
+    @include mq() {
+      padding-left: $space_l;
+      padding-right: $space_l;
+    }
+  }
 }
