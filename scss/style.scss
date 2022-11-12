@@ -101,6 +101,12 @@ $breakpoints: (
   margin-right: calc(calc(980px - calc(230px * 4)) / 3);
   margin-bottom: $space_l;
   box-sizing: border-box;
+  transition: .5s;
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    transition: .5s;
+  }
   &__group {
     &--float {
       overflow: hidden;
