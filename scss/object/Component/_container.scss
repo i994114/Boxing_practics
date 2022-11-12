@@ -1,4 +1,6 @@
 .c-container {
+  padding-top: $section_padding_s;
+  padding-bottom: $section_padding_s;
   @include mq() {
     width: 100%;
   }

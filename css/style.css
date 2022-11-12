@@ -137,9 +137,7 @@ table {
   margin-bottom: 40px; }
 
 .c-news {
-  margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 80px; }
+  margin: 0 auto; }
 
 .c-news__body {
   background-color: #fcb900;
@@ -163,6 +161,8 @@ table {
   color: #e37b89; }
 
 .c-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
   width: 980px;
   margin: 0 auto; }
   @media screen and (max-width: 414px) {
@@ -254,3 +254,27 @@ table {
 
 .u-logo__font {
   font-family: 'Caveat', cursive; }
+
+.c-gallery {
+  float: left;
+  margin-right: calc(calc(980px - calc(230px * 4)) / 3);
+  margin-bottom: 15px;
+  box-sizing: border-box; }
+  .c-gallery__group--float {
+    overflow: hidden; }
+  .c-gallery__boby {
+    position: relative;
+    padding-top: 60%; }
+  .c-gallery__staff {
+    width: calc(25% - 15px); }
+    .c-gallery__staff:nth-of-type(4) {
+      margin-right: 0; }
+    .c-gallery__staff:nth-of-type(8) {
+      margin-right: 0; }
+  .c-gallery--img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%; }
