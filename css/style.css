@@ -252,9 +252,6 @@ table {
     text-align: center;
     font-size: 38px; } }
 
-.u-logo__font {
-  font-family: 'Caveat', cursive; }
-
 .c-gallery {
   float: left;
   margin-right: calc(calc(980px - calc(230px * 4)) / 3);
@@ -283,3 +280,6 @@ table {
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%; }
+
+.u-logo__font {
+  font-family: 'Caveat', cursive; }
