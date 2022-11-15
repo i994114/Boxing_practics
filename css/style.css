@@ -1,29 +1,4 @@
 @charset "UTF-8";
-html, body {
-  width: 100%;
-  color: #008C9E;
-  font-size: 16px;
-  line-height: 1.6;
-  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  text-size-adjust: 100%;
-  letter-spacing: 0.1em; }
-
-p, a {
-  -webkit-font-smoothing: antialiased; }
-
-a {
-  color: #008C9E;
-  text-decoration: none;
-  transition: .3s; }
-
-a:hover {
-  color: #e37b89;
-  transition: .3s; }
-
-img {
-  width: 100%;
-  vertical-align: bottom; }
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -70,6 +45,31 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+html, body {
+  width: 100%;
+  color: #008C9E;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em; }
+
+p, a {
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #008C9E;
+  text-decoration: none;
+  transition: .3s; }
+
+a:hover {
+  color: #e37b89;
+  transition: .3s; }
+
+img {
+  width: 100%;
+  vertical-align: bottom; }
 
 .l-header {
   box-sizing: border-box;
@@ -298,5 +298,62 @@ table {
     width: 100%;
     height: 100%; }
 
+.c-course {
+  background-color: #fcb900; }
+  .c-course__group {
+    margin: 0 auto 15px auto; }
+  .c-course--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    @media screen and (max-width: 414px) {
+      .c-course--flex {
+        display: block; } }
+  .c-course__menu {
+    width: calc(33.3% - 15px); }
+    @media screen and (max-width: 414px) {
+      .c-course__menu {
+        width: 100%;
+        margin-bottom: 10px; } }
+  .c-course--title {
+    text-align: center;
+    padding: 20px; }
+  .c-course--border {
+    border-radius: 5px;
+    border: solid 5px #f6f5f4;
+    box-sizing: border-box; }
+  .c-course--borderActive {
+    border-radius: 5px;
+    border: solid 5px #e3a8b1;
+    position: relative;
+    box-sizing: border-box; }
+  .c-course__body {
+    position: relative;
+    padding-top: 100%; }
+  .c-course--img {
+    position: absolute;
+    height: 100%;
+    top: 0; }
+  .c-course--msg {
+    padding: 10px; }
+  .c-course__badge {
+    position: absolute;
+    background: #e37b89;
+    color: #fff;
+    top: -20px;
+    right: -20px;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 15px 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    transform: rotate(15deg); }
+
 .u-logo__font {
   font-family: 'Caveat', cursive; }
+
+.u-title__size {
+  font-size: 24px; }

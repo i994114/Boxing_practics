@@ -1,0 +1,64 @@
+.c-course {
+  background-color: #fcb900;
+  &__group {
+    margin: 0 auto $space_l auto;
+  }
+  &--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include mq() {
+      display: block;
+    }
+  }
+  &__menu {
+    width: calc(33.3% - #{$space_l});
+    @include mq() {
+      width: 100%;
+      margin-bottom: $space_m;
+    }
+  }
+  &--title {
+    text-align: center;
+    padding: $space_xl;
+  }
+  &--border {
+    border-radius: 5px;
+    border: solid 5px #f6f5f4;
+    box-sizing: border-box;
+  }
+  &--borderActive {
+    border-radius: 5px;
+    border: solid 5px #e3a8b1;
+    position: relative;
+    box-sizing: border-box;
+  }
+  &__body {
+    position: relative;
+    padding-top: 100%;
+  }
+  &--img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+  }
+  &--msg {
+    padding: $space_m;
+  }
+  &__badge {
+    position: absolute;
+    background: #e37b89;
+    color: #fff;
+    top: -20px;
+    right: -20px;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 15px 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    transform: rotate(15deg);
+  }
+}

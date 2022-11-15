@@ -70,8 +70,8 @@ $breakpoints: (
 // 各種ファイルのimport
 // ==================================
 //foundation
-@import '../scss/foundation/base.scss';
 @import '../scss/foundation/reset.scss';
+@import '../scss/foundation/base.scss';
 
 //layout
 @import '../scss/layout/_header.scss';
@@ -87,11 +87,13 @@ $breakpoints: (
 @import '../scss/object/Component/_container.scss';
 @import '../scss/object/Component/_about.scss';
 @import '../scss/object/Component/_menuTrigger.scss';
-@import '../scss/object/Component/navMenu.scss';
-@import '../scss/object/Component/gallery.scss';
+@import '../scss/object/Component/_navMenu.scss';
+@import '../scss/object/Component/_gallery.scss';
+@import '../scss/object/Component/course';
 
 //utility
 @import '../scss/object/Utility/_font.scss';
+
 
 
 

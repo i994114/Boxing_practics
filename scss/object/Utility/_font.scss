@@ -1,3 +1,11 @@
 .u-logo__font {
   font-family: 'Caveat', cursive;
 }
+.u-title {
+  &__font {
+
+  }
+  &__size {
+    font-size: $font_size_xl;
+  }
+}
