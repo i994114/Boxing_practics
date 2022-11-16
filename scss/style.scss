@@ -76,6 +76,7 @@ $breakpoints: (
 //layout
 @import '../scss/layout/_header.scss';
 @import '../scss/layout/_main.scss';
+@import '../scss/layout/footer';
 
 //component
 @import '../scss/object/Component/_heroPage.scss';
@@ -100,11 +101,3 @@ $breakpoints: (
 
 
 
-.l-footer {
-  background: #e37b89;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80px;
-}
