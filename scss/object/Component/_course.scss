@@ -1,5 +1,5 @@
 .c-course {
-  background-color: #fcb900;
+  background-color: $background-base;
   &__group {
     margin: 0 auto $space_l auto;
   }
@@ -24,7 +24,7 @@
   }
   &--border {
     border-radius: 5px;
-    border: solid 5px #f6f5f4;
+    border: solid 5px #C5CC00;
     box-sizing: border-box;
   }
   &--borderActive {
