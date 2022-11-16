@@ -1,5 +1,12 @@
 $(function() {
 
+  //フロートヘッダーメニュー
+  var targetHeight = $('.js-float-menu-target').height();
+  $(window).on('scroll', function() {
+    $('.js-float-menu').toggleClass('float-active', $(this).scrollTop() > targetHeight);
+  });
+  
+  //ハンバーガーメニュー
   var $btn = $('.js-menuTrigger');
   $btn.on('click', function() {
     //ハンバーガーアイコンを×型にする処理

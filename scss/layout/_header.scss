@@ -10,6 +10,10 @@
   padding-right: $space_xl;
   position: fixed;
   z-index: 2;
+  &.float-active {
+    translate: .3s;
+    background: rgba(255, 255, 255, 0.9);
+  }
 }
 
 .c-headerMenu {

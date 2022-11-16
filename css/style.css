@@ -83,6 +83,9 @@ img {
   padding-right: 20px;
   position: fixed;
   z-index: 2; }
+  .l-header.float-active {
+    translate: .3s;
+    background: rgba(255, 255, 255, 0.9); }
 
 .c-headerMenu {
   display: flex;
