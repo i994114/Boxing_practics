@@ -12,7 +12,7 @@ $font-size_default: 16px;
 
 $font-size_s: 12px;
 $font-size_m: 14px;
-$font_size_l: 16px;
+$font_size_l: 18px;
 $font_size_xl: 24px;
 $font_size_xxl: 30px;
 $font_size_3l: 38px;
@@ -90,10 +90,13 @@ $breakpoints: (
 @import '../scss/object/Component/_navMenu.scss';
 @import '../scss/object/Component/_gallery.scss';
 @import '../scss/object/Component/course';
+@import '../scss/object/Component/form';
+@import '../scss/object/Component/input';
+@import '../scss/object/Component/btn';
 
 //utility
 @import '../scss/object/Utility/_font.scss';
-
+@import '../scss/object/Utility/margin';
 
 
 
