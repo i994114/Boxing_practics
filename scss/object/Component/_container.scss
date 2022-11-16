@@ -22,14 +22,15 @@
       }
       //タイトルの横線の装飾
       &:before {
-        top: 15px;
+        top:25px;
       }
       &:after {
-        top: -15px;
+        top: -25px;
       }
       .u-oddTitle {
         position: relative;
         z-index: 1;
+        background: $background-main;
       }
     }
   }
